@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd osint-academy && pnpm install && pnpm build",
+  "outputDirectory": "osint-academy/dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
