@@ -4,8 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "cd osint-academy && pnpm start",
-    "dev": "cd osint-academy && pnpm dev",
-    "build": "cd osint-academy && pnpm build"
+    "start": "cd osint-academy && npm start",
+    "dev": "cd osint-academy && npm run dev",
+    "build": "cd osint-academy && npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
