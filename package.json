@@ -1,0 +1,11 @@
+{
+  "name": "osint-academy-complete",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "cd osint-academy && pnpm start",
+    "dev": "cd osint-academy && pnpm dev",
+    "build": "cd osint-academy && pnpm build"
+  }
+}
